@@ -31,7 +31,7 @@ class HabitReplacementApp extends StatelessWidget {
           seedColor: Colors.indigo,
           brightness: Brightness.dark,
         ),
-        scaffoldBackgroundColor: const Color(0xFF121214),
+        scaffoldBackgroundColor: const Color(0Entries121214),
       ),
       home: const HabitHomePage(),
     );
@@ -101,7 +101,7 @@ class _HabitHomePagePageState extends State<HabitHomePage> with SingleTickerProv
       if (type == '松') {
         _emoji = '🎉';
         _message = '素晴らしい！完璧な置き換え成功じゃ！\nその調子で脳の回路を書き換えていこう！';
-        _accentColor = Colors.greenAccent;
+        _accentColor = Colors.emeraldAccent;
         _dayCount += 1;
         _successRate = ((_successRate * 10 + 100) / 11).clamp(0, 100);
         _logHabit('松', '完璧に新習慣を実行できた');
@@ -205,7 +205,7 @@ class _HabitHomePagePageState extends State<HabitHomePage> with SingleTickerProv
                     const SizedBox(height: 16),
                     Row(
                       children: [
-                        Expanded(child: _buildActionButton('松', '完璧！', Colors.green, () => _handleOptionSelected('松'))),
+                        Expanded(child: _buildActionButton('松', '完璧！', Colors.emerald, () => _handleOptionSelected('松'))),
                         const SizedBox(width: 10),
                         Expanded(child: _buildActionButton('竹', '意識した', Colors.amber.shade700, () => _handleOptionSelected('竹'))),
                         const SizedBox(width: 10),
