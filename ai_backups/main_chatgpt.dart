@@ -1,3 +1,4 @@
+// ChatGPT 2026/07/01 23時頃
 // main.dart
 import 'dart:math';
 import 'package:flutter/material.dart';

@@ -5,9 +5,9 @@
 ## 🛠️ 開発思想（AI共創型アプローチ）
 単にひとつのAIに依存するのではなく、**Claude 3.5 Sonnet、ChatGPT (GPT-4o)、Gemini 1.5 Pro** の3つの主要LLMに対して同一のプロンプトを投入。出力されたコードのモダニティ、アニメーションの滑らかさ、エラーの少なさを比較検証するアプローチを採用しました。
 
-- `lib/main_claude.dart` : Claude 3.5 Sonnet 出力版
-- `lib/main_chatgpt.dart` : ChatGPT (GPT-4o) 出力版
-- `lib/main_gemini.dart` : Gemini 1.5 Pro 出力版
+- `lib/main_claude.dart` : Claude (Sonnet5) 出力版
+- `lib/main_chatgpt.dart` : ChatGPT (GPT-5.5) 出力版
+- `lib/main_gemini.dart` : Gemini (3.5 Flash) 出力版 -> 3.1 Proの方がよさげ？
 ※各プロンプトの原本は `docs/` ディレクトリに格納しています。
 
 ## 🎯 UI/UXのこだわり（TOCfEの思想をベースに）
