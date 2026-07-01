@@ -54,7 +54,7 @@ class _HabitHomePagePageState extends State<HabitHomePage> with SingleTickerProv
   late Animation<double> _scaleAnimation;
 
   @override
-  void开(init) {
+  void (init) {
     super.initState();
     _controller = AnimationController(
       duration: const Duration(milliseconds: 500),
